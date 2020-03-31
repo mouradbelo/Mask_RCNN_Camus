@@ -2387,7 +2387,6 @@ class MaskRCNN():
         windows: [N, (y1, x1, y2, x2)]. The portion of the image that has the
             original image (padding excluded).
         """
-        
         molded_images = []
         image_metas = []
         windows = []
@@ -2401,7 +2400,7 @@ class MaskRCNN():
                 max_dim=self.config.IMAGE_MAX_DIM,
                 mode=self.config.IMAGE_RESIZE_MODE)
             molded_image = mold_image(molded_image, self.config)
-            
+
             # Build image_meta
             image_meta = compose_image_meta(
                 0, image.shape, molded_image.shape, window, scale,
