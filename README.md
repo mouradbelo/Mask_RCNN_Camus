@@ -8,7 +8,7 @@ This repo uses Mask R-CNN on [CAMUS dataset](https://www.creatis.insa-lyon.fr/Ch
     3) `Left atrium`   
     4) `Epicardium`   
 
-- We note that *train* section can be skipped if one wants to perform detection, evaluation... However, cells below the *detect* section are dependent of it.
+
 
 Summary :
 * I.   [Dataset](#dataset)
@@ -18,6 +18,4 @@ Summary :
 * V.   [Evaluate](#evaluate)
 * VI.  [Inspect detection](#inspect)
 * VII. [Save segmentation's differences in **png** format](#png)  
-TODO: 
-- Parallel : adapt code to Pr. Bernard's code
-- Evaluate on 2 classes
+
