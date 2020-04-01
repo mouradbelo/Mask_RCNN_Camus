@@ -20,3 +20,15 @@ Summary :
 * VI.  [Inspect detection](#inspect)
 * VII. [Save segmentation's differences in **png** format](#png)  
 
+## Installation
+1. Clone this repository
+2. Install dependencies
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+3. Run setup from the repository root directory
+    ```bash
+    python3 setup.py install
+    ``` 
+4. Download pre-trained COCO weights (mask_rcnn_coco.h5) from the [releases page](https://github.com/matterport/Mask_RCNN/releases).  CAMUS weights will be uploaded soon to be downloaded.
+
