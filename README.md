@@ -1,6 +1,6 @@
 # Mask R-CNN - Camus Dataset
 
-This notebook shows how to train, test and evaluate Mask R-CNN on [CAMUS dataset](https://www.creatis.insa-lyon.fr/Challenge/camus/).
+This repo uses Mask R-CNN on [CAMUS dataset](https://www.creatis.insa-lyon.fr/Challenge/camus/).
 - We note that we use a variation of this dataset where we have 4 binary masks (The forth being the union of 1 and 2 -Epicardium-) instead of one mask with the 3 classes. Check the data preprocessing notebook. We thus have the following classes corresponding to each groundtruth:  
   
     1) `Left ventricule`   
