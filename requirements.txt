@@ -9,4 +9,6 @@ keras>=2.0.8
 opencv-python
 h5py
 imgaug
+simpleitk
+medpy
 IPython[all]
