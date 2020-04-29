@@ -9,7 +9,7 @@ This repo uses Mask R-CNN on [CAMUS dataset](https://www.creatis.insa-lyon.fr/Ch
     4) `Epicardium`   
     
 Notebooks and train/test/evaluate python files are in `samples/CAMUS`.  
-Scripts used for CAMUS are in `mrcnn/camus_scripts.py`
+Functions used for CAMUS are in `mrcnn/camus_utils.py`
 
 Summary :
 * I.   [Dataset](#dataset)
