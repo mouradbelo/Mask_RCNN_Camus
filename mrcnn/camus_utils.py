@@ -31,7 +31,7 @@ def dice (gt, segmentation, _id):
         (3,0),
     ])
     
-    # Check if there have missing masks 
+    # Check if there are missing masks 
     check_missing = True
     # Make sure there are masks
     if (segmentation['masks'].ndim > 2):
