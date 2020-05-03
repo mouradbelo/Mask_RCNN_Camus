@@ -31,5 +31,5 @@ Summary :
     ```bash
     python3 setup.py install
     ``` 
-4. Download pre-trained COCO weights (mask_rcnn_coco.h5) from the [releases page](https://github.com/matterport/Mask_RCNN/releases).  CAMUS weights will be uploaded soon to be downloaded.
+4. Download pre-trained COCO weights (mask_rcnn_coco.h5) from the [releases page](https://github.com/matterport/Mask_RCNN/releases).  CAMUS weights will be uploaded soon.
 
